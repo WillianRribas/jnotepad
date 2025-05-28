@@ -78,13 +78,6 @@ java NotepadApp
 - Arquivos podem ser abertos e salvos no mesmo local ou em diretórios diferentes.
 - A aplicação simula o comportamento clássico do Notepad de maneira intuitiva.
 
-## 🚀 Possíveis Melhorias Futuras
-
-- Adicionar suporte a múltiplas abas.
-- Implementar temas (modo escuro, claro).
-- Suporte a atalhos de teclado.
-- Suporte para diferentes tipos de arquivos (ex: `.md`, `.java`).
-
 ## 👨‍💻 Autor
 
 Projeto desenvolvido por Willian dos Santos Ribas.
