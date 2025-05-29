@@ -1,29 +1,29 @@
 
-# 📝 JNotepad - Simulador de Notepad com Java Swing
+# JNotepad - Simulador de Notepad com Java Swing
 
-## 📖 Descrição
+## Descrição
 
 Este projeto consiste no desenvolvimento de uma aplicação desktop utilizando **Java Swing** para simular o clássico **Notepad** do Windows. O aplicativo oferece funcionalidades básicas de edição de texto, manipulação de arquivos, customização de fontes e exibição de informações sobre o software.
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
-✅ **Menu Arquivo:**
+**Menu Arquivo:**
 - **Abrir:** permite selecionar um arquivo de texto e carregá-lo no editor.
 - **Salvar:** permite salvar o conteúdo editado em um arquivo.
 - **Sair:** encerra a aplicação.
 
-✅ **Menu Fontes:**
+**Menu Fontes:**
 - **Arial (Tamanho 14):** altera a fonte do conteúdo para Arial, tamanho 14.
 - **Courier New (Tamanho 24):** altera a fonte do conteúdo para Courier New, tamanho 24.
 
-✅ **Menu Ajuda:**
+**Menu Ajuda:**
 - **Sobre:** exibe uma janela modal com informações básicas sobre o aplicativo.
 
-✅ **Editor de Texto:**
+**Editor de Texto:**
 - Área central para digitação de texto plano.
 - **Barra de Status Inferior:** exibe a contagem de caracteres e um indicador de modificação (Sim/Não) desde a última abertura ou salvamento do arquivo.
 
-## 🗂️ Estrutura do Código
+## Estrutura do Código
 
 - **Classe `NotepadApp`:** principal componente da aplicação, estende `JFrame`.
 - **Componentes:**
@@ -40,7 +40,7 @@ Este projeto consiste no desenvolvimento de uma aplicação desktop utilizando *
   - Listeners para ações nos menus.
   - `DocumentListener` para monitorar alterações no texto.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem:** Java
 - **Bibliotecas:** 
@@ -48,7 +48,7 @@ Este projeto consiste no desenvolvimento de uma aplicação desktop utilizando *
   - `java.io` para manipulação de arquivos.
   - `java.awt.event` para gerenciamento de eventos.
 
-## ▶️ Como Executar
+## Como Executar
 
 1. **Pré-requisitos:**
    - JDK (Java Development Kit) instalado.
@@ -72,12 +72,12 @@ java NotepadApp
    - Visualize informações na opção Sobre do menu Ajuda.
    - Acompanhe as modificações na barra de status inferior.
 
-## 📝 Observações
+## Observações
 
 - A barra de status é atualizada automaticamente conforme alterações são feitas no texto.
 - Arquivos podem ser abertos e salvos no mesmo local ou em diretórios diferentes.
 - A aplicação simula o comportamento clássico do Notepad de maneira intuitiva.
 
-## 👨‍💻 Autor
+## Autor
 
 Projeto desenvolvido por Willian dos Santos Ribas.
